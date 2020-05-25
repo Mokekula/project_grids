@@ -1,0 +1,6 @@
+app/css/
+/node_modules
+/dist
+package-lock.json
+/.idea
+app/js/libs.min.js
