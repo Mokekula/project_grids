@@ -1,0 +1,58 @@
+.container-grid{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr);
+    grid-template-rows: 25px 1fr 1fr 2fr 2fr;
+    grid-template-areas: 
+    "item1 . . item2"
+    "item3 item4 item5 item6"
+    "item7 item8 item9 item10"
+    "item11 item12 item13 item10"
+    ". item14 . .";
+    grid-gap: 25px;
+}
+
+.name-elevated{
+    grid-area: item1;
+}
+.name-outlined{
+    grid-area: item2;
+}
+.users{
+    grid-area: item3;
+}
+.headline-1{
+    grid-area: item4;
+}
+.headline-2{
+    grid-area: item5;
+}
+.headline-3{
+    grid-area: item6;
+}
+.colors{
+    grid-area: item7;
+}
+.headline-3-copy{
+    grid-area: item8;
+}
+.headline-4{
+    grid-area: item9;
+}
+.headline-5{
+    grid-area: item10;
+}
+.fruits{
+    grid-area: item11;
+    max-height: 148px;
+}
+.headline-6{
+    grid-area: item12;
+}
+.headline-7{
+    grid-area: item13;
+}
+.headline-8{
+    grid-area: item14;
+}
