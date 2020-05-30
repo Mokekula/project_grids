@@ -105,7 +105,7 @@
     cursor: pointer;
     grid-area: item7;
     max-height: 74px;
-    max-width: 157px;
+    max-width: 100%;
     color: #ffffff;
     padding: 7px  16px 16px;
     background-image: url(../img/hz-chto.jpg);
@@ -176,10 +176,11 @@
     &__img{
         img{
             border-radius: 4px 4px 0 0;
-            max-width: 329px;
+            max-width: 100%;
             min-width: 329px;
-            max-height: 183px;
+            max-height: auto;
             min-height: 183px;
+            width: 100%;
         }
     }
     &__inner{
@@ -276,7 +277,8 @@
     }
     img{
         border-radius: 4px 4px 0 0;
-        max-width: 163px;
+        max-width: 100%;
+        width: 100%;
         min-width: 163px;
         max-height: 78px;
         min-height: 78px;
@@ -287,10 +289,11 @@
     grid-area: item12;
     &__img{
         border-radius: 4px 4px 0 0;
-        max-width: 344px;
+        max-width: 100%;
         min-width: 344px;
-        max-height: 183px;
+        max-height: auto;
         min-height: 183px;
+        width: 100%;
     }
     &__title{
         font-weight: 500;
@@ -311,9 +314,10 @@
     grid-area: item13;
     &__img{
         border-radius: 4px 4px 0 0;
-        max-width: 344px;
+        max-width: 100%;
+        width: 100%;
         min-width: 344px;
-        max-height: 183px;
+        max-height: auto;
         min-height: 183px;
     }
     &__title{
@@ -357,9 +361,10 @@
     }
     }  
     &__img{
-        max-width: 344px;
+        max-width: 100%;
+        width: 100%;
         min-width: 344px;
-        max-height: 133px;
+        max-height: auto;
         min-height: 133px;
     }
     &__text{

@@ -1,0 +1,82 @@
+@media (max-width: 1300px){
+    .container-grid{
+        max-width: 1000px;
+        grid-template-columns: 1fr repeat(2, 2fr);
+        grid-template-rows: 25px 1fr 1fr 2fr 2fr 1fr;
+        grid-template-areas: 
+        "item1 . item2"
+        "item3 item4 item6"
+        "item7 item8 item10"
+        "item11 item12 item10"
+        ". item14 item13"
+        ". item5 item9";
+    }
+}
+
+@media (max-width: 1080px){
+    .container-grid{
+        justify-content: center;
+        max-width: 500px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25px 90px 150px 1fr 1fr 2fr 2fr 1fr;
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item7"
+        "item11 ."
+        "item4 item6"
+        "item8 item10"
+        "item12 item10"
+        "item14 item13"
+        "item5 item9";
+    }
+    .users{
+        max-width: 190px;
+        width: 100%;
+    }
+    .colors{
+        max-width: 190px;
+        width: 100%;
+    }
+    .fruits{
+        max-width: 190px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .container-grid{
+        max-width: 500px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25px repeat(2, 90px) 150px 1fr 1fr 2fr 2fr 1fr 25px 1fr 3fr 2fr 1fr;
+        grid-template-areas: 
+        "item1"
+        "item3"
+        "item7"
+        "item11"
+        "item4"
+        "item8"
+        "item12"
+        "item14"
+        "item5"
+        "item2"
+        "item6"
+        "item10"
+        "item13"
+        "item9";
+        .users{
+            justify-self: center;
+        }
+        .colors{
+            justify-self: center;
+        }
+        .fruits{
+            justify-self: center;
+        }
+        .name-elevated{
+            text-align: center;
+        }
+        .name-outlined{
+            text-align: center;
+        }
+    }
+}
