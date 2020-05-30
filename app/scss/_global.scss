@@ -1,6 +1,8 @@
 @import "vars";
 
-*, *::before, *::after {
+*, 
+*::before, 
+*::after {
     box-sizing: border-box;
 }
 
@@ -10,6 +12,14 @@ body{
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    background-image: url(../img/poznyak-eater.jpg);
+    background-color: #e5e5e5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    padding: 50px 0;
 }
 
 ul{
@@ -28,6 +38,30 @@ a{
     display: inline-block;
 }
 
-h1, h2, h3{
+h1, 
+h2, 
+h3{
     margin: 0;
+}
+
+.bg{
+    background-color: #fff;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.32);
+    border-radius: 4px;
+}
+
+.action{
+    padding-top: 18px;
+    background-color: inherit;
+    color: $link;
+    outline: none;
+    border: 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        color: indigo;
+        transition: all 0.3s;
+    }
 }

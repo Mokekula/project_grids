@@ -13,13 +13,13 @@
 <body>
     <main class="main">
         <div class="container-grid">
-            <h2 class="name-elevated" style="background-color: black">Elevated</h2>
-            <h2 class="name-outlined" style="background-color: red">Outlined</h2>
-            <div class="users" style="background-color: purple">
+            <h2 class="name-elevated">Elevated</h2>
+            <h2 class="name-outlined">Outlined</h2>
+            <div class="users bg">
                 <h3 class="users__title">Users</h3>
                 <span class="users__quantity">45.5 M</span>
             </div>
-            <div class="headline-1" style="background-color: green">
+            <div class="headline-1 bg">
                 <h3 class="headline-1__title">Headline 1</h3>
                 <span class="headline-1__subtitle">Secondy line text</span>
                 <p class="headline-1__text">
@@ -27,14 +27,16 @@
                     adipiscing elit, sed do eiusmod tempor
                 </p>
             </div>
-            <div class="headline-2" style="background-color: blue">
+            <div class="headline-2 bg">
                 <div class="headline-2__inner">
-                    <h3 class="headline-2__title">Headline 2</h3>
-                    <p class="headline-2__text">
-                        Secondy line text. Lorem ipsum dolor si amet
-                    </p>
+                    <div class="headline-2__info">
+                        <h3 class="headline-2__title">Headline 2</h3>
+                        <p class="headline-2__text">
+                            Secondy line text. Lorem ipsum dolor si amet
+                        </p>
+                    </div>
                     <div class="headline-2__img">
-                        <img src="" alt="">
+                        <img src="img/poznyak-ava.jpg" alt="kek">
                     </div>
                 </div>
                 <div class="buttons">
@@ -42,7 +44,7 @@
                     <button class="action">Action 2</button>
                 </div>
             </div>
-            <div class="headline-3" style="background-color: lightcoral">
+            <div class="headline-3 bg">
                 <h3 class="headline-3__title">Headline 3</h3>
                 <p class="headline-3__text">
                     Lorem ipsum dolor sit amet, consectetur 
@@ -53,11 +55,11 @@
                     <button class="action">Action 2</button>
                 </div>
             </div>
-            <div class="colors" style="background-color: rebeccapurple">
-                <h3 class="colors__titl">Colors</h3>
+            <div class="colors">
+                <h3 class="colors__title">Colors</h3>
                 <span class="colors__size">4.11 MB</span>
             </div>
-            <div class="headline-3-copy" style="background-color: sandybrown">
+            <div class="headline-3-copy bg">
                 <h3 class="headline-3__title">Headline 3</h3>
                 <p class="headline-3__text">
                     Lorem ipsum dolor sit amet, consectetur 
@@ -68,14 +70,17 @@
                     <button class="action">Action 2</button>
                 </div>
             </div>
-            <div class="headline-4" style="background-color: yellow">
+            <div class="headline-4 bg">
                 <div class="headline-4__inner">
-                    <h3 class="headline-4__title">Headline 2</h3>
-                    <p class="headline-4__text">
-                        Secondy line text. Lorem ipsum dolor si amet
-                    </p>
+                    <div class="headline-4__info">
+                        <span class="headline-4__subtitle">Overline</span>
+                        <h3 class="headline-4__title">Headline 4</h3>
+                        <p class="headline-4__text">
+                            Secondy line text. Lorem ipsum dolor si amet
+                        </p>
+                    </div>
                     <div class="headline-4__img">
-                        <img src="" alt="">
+                        <img src="img/poznyak-ava.jpg" alt="kek">
                     </div>
                 </div>
                 <div class="buttons">
@@ -83,55 +88,66 @@
                     <button class="action">Action 2</button>
                 </div>
             </div>
-            <div class="headline-5" style="background-color: gray">
-                <h3 class="headline-5">
-                    Headline 5
-                </h3>
-                <div class="headline-5__raiting">
-                    <ul class="stars">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <div class="headline-5__raiting-quantity">4.5 (413)</div>
+            <div class="headline-5 bg">
+                <div class="headline-5__img">
+                    <img src="img/blue-limon.jpg" alt="kek">
                 </div>
-                <div class="headline-5__line-text">Secondy line text</div>
-                <p class="headline-5__text">
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                </p>
-                <div class="headline-5__subtitle">Subtitle</div>
-                <div class="headline-5__btns">
-                    <button class="headline-5__btn_1">Item 1</button>
-                    <button class="headline-5__btn_2">Item 2</button>
-                    <button class="headline-5__btn_3">Item 3</button>
-                    <button class="headline-5__btn_4">Item 4</button>
+                <div class="headline-5__inner">
+                    <h3 class="headline-5__title">
+                        Headline 5
+                    </h3>
+                    <div class="headline-5__raiting">
+                        <ul class="stars">
+                            <li class="icon-star"></li>
+                            <li class="icon-star"></li>
+                            <li class="icon-star"></li>
+                            <li class="icon-star-half-full"></li>
+                            <li class="icon-star-o"></li>
+                        </ul>
+                        <div class="headline-5__raiting-quantity">3.5 (413)</div>
+                    </div>
+                    <div class="headline-5__line-text">Secondy line text</div>
+                    <p class="headline-5__text">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                    </p>
+                    <div class="headline-5__subtitle">Subtitle</div>
+                    <div class="headline-5__btns">
+                        <button class="headline-5__btn">Item 1</button>
+                        <button class="headline-5__btn">Item 2</button>
+                        <button class="headline-5__btn">Item 3</button>
+                        <button class="headline-5__btn">Item 4</button>
+                    </div>
+                    <div class="buttons">
+                        <button class="action">Action 1</button>
+                        <button class="action">Action 2</button>
+                    </div>
                 </div>
-                <div class="buttons">
-                    <button class="action">Action 1</button>
-                    <button class="action">Action 2</button>
+            </div>
+            <div class="fruits bg">
+                <img src="img/fruits.jpg" alt="kek" class="fruits__img">
+                <div class="fruits__inner">
+                    <div class="fruits__title">Fruits</div>
+                    <span class="fruits__size">6.24 MB</span>
                 </div>
             </div>
-            <div class="fruits" style="background-color: brown">
-                <img src="" alt="" class="fruits__img">
-                <div class="fruits__title">Fruits</div>
-                <span class="fruits__size">6.24 MB</span>
+            <div class="headline-6 bg">
+                <img src="img/house.jpg" alt="kek" class="headline-6__img">
+                <div class="headline-6__inner">
+                    <h3 class="headline-6__title">Headline 6</h3>
+                    <p class="headline-6__text">Secondy line text</p>
+                </div>
             </div>
-            <div class="headline-6" style="background-color: cornflowerblue">
-                <img src="" alt="" class="headline-6__img">
-                <h3 class="headline-6__title">Headline 6</h3>
-                <p class="headline-6__text">Secondy line text</p>
+            <div class="headline-7 bg">
+                <img src="img/pencils.jpg" alt="kek" class="headline-7__img">
+                <div class="headline-7__inner">
+                    <h3 class="headline-7__title">Headline 7</h3>
+                    <p class="headline-7__text">Secondy line text</p>
+                </div>
             </div>
-            <div class="headline-7" style="background-color: crimson">
-                <img src="" alt="" class="headline-7__img">
-                <h3 class="headline-7__title">Headline 7</h3>
-                <p class="headline-7__text">Secondy line text</p>
-            </div>
-            <div class="headline-8" style="background-color: aqua">
+            <div class="headline-8 bg">
                 <div class="headline-8__user">
-                    <img src="" alt="" class="headline-8__user-ava">
+                    <img src="img/poznyak-bandit.jpg" alt="kek" class="headline-8__user-ava">
                     <h3 class="headline-8__user-title">
                         Headline 8
                         <span class="headline-8__user-subtitle">
@@ -139,7 +155,7 @@
                         </span>
                     </h3>
                 </div>
-                <img src="" alt="" class="headline-8__img">
+                <img src="img/stairs.jpg" alt="kek" class="headline-8__img">
                 <p class="headline-8__text">
                     Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor
@@ -150,8 +166,8 @@
                         <button class="action">Action 2</button>
                     </div>
                     <div class="headline-8__reaction">
-                        <a href="#" class="like"></a>
-                        <a href="#" class="share"></a>
+                        <a href="#" class="like icon-heart"></a>
+                        <a href="#" class="share icon-share2"></a>
                     </div>
                 </div>
             </div>
