@@ -102,6 +102,7 @@
 }
 
 .colors{
+    cursor: pointer;
     grid-area: item7;
     max-height: 74px;
     max-width: 157px;
@@ -174,6 +175,7 @@
     grid-area: item10;
     &__img{
         img{
+            border-radius: 4px 4px 0 0;
             max-width: 329px;
             min-width: 329px;
             max-height: 183px;
@@ -256,6 +258,7 @@
 }
 
 .fruits{
+    cursor: pointer;
     grid-area: item11;
     max-height: 148px;
     &__inner{
@@ -272,6 +275,7 @@
         opacity: 0.56;
     }
     img{
+        border-radius: 4px 4px 0 0;
         max-width: 163px;
         min-width: 163px;
         max-height: 78px;
@@ -282,6 +286,7 @@
 .headline-6{
     grid-area: item12;
     &__img{
+        border-radius: 4px 4px 0 0;
         max-width: 344px;
         min-width: 344px;
         max-height: 183px;
@@ -305,6 +310,7 @@
 .headline-7{
     grid-area: item13;
     &__img{
+        border-radius: 4px 4px 0 0;
         max-width: 344px;
         min-width: 344px;
         max-height: 183px;
@@ -327,7 +333,6 @@
 
 .headline-8{
     grid-area: item14;
-    
     &__user{
         display: flex;
         padding: 16px;
@@ -336,6 +341,7 @@
         max-height: 40px;
         min-width: 40px;
         min-height: 40px;
+        border-radius: 50%;
     }
         &-title{
             font-weight: 500;
@@ -375,6 +381,11 @@
         .like,
         .share{
             color: rgb(87, 84, 84);
+            &:hover{
+                color: indigo;
+                transform: scale(1.1);
+                transition: all 0.3s;
+            }
         }
     .share{
         padding-left: 25px;
